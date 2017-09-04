@@ -1,0 +1,566 @@
+.areaTop{
+    width:100%;
+    margin:0 auto;
+    height:34px;
+    padding:5px 0 0;
+    background:#f6f7f7;
+    border-bottom:1px solid #e7e7e7;
+    position:fixed;
+    left:0;
+    top:0;
+}
+.area,#crumbsBar,#playBar,#detail-content{
+    width: 1300px;
+    margin:0 auto;
+}
+.hd-logoMini{
+    float:left;
+    margin:4px 20px 0 0;
+}
+#newplayNavCrumbs{
+    width:138px;
+}
+.hd-subMenu{
+    float:left;
+}
+.hd-subMenu li{
+    float:left;
+    position:relative;
+    margin-right:10px;
+}
+.detail-text,.detail-text-end{
+    padding-right:16px;
+    display:block;
+    height:32px;
+    line-height:32px;
+    background:url(../images/detail/nav_mini.png) no-repeat;
+}
+.detail-text{
+    background-position:right -121px;
+}
+.detail-text-end{
+    background-position:right -84px;
+    padding-right:15px;
+    letter-spacing:1px;
+}
+.hd-hotWord{
+    /*margin-right:10px;*/
+    float:left;
+    width:560px;
+    height:34px;
+    line-height:30px;
+}
+.hd-hotWord a{
+    font-size:12px;
+    margin-right:5px;
+}
+.hd-soMini{
+    width:230px;
+    height:30px;
+    float:left;
+}
+.hd-soMini-input{
+    width:181px;
+    float:left;
+    height:28px;
+    line-height:28px;
+    font-size:12px;
+    background:#fff;
+    border:1px solid silver;
+    border-right:none;
+    padding:0 5px;
+    color:#999;
+}
+.hd-submit{
+    width:36px;
+    height:28px;
+    cursor: pointer;
+    border:none;
+    background:url(../images/detail/nav_mini.png) no-repeat;
+}
+#crumbsBar{
+    height:56px;
+    padding-top:5px;
+    overflow: hidden;
+}
+.left{
+    width:812px;
+    overflow: visible;
+    float: left;
+}
+.crumbs{
+    color:#3a3a3a;
+    margin:3px 0 6px;
+    /*height:19px;*/
+}
+.crumbs a{
+    font-size:12px;
+}
+.left h2{
+    font-size:18px;
+    margin-right:10px;
+    line-height:20px;
+    color:#3a3a3a;
+}
+.f-detail{
+    margin:0 3px;
+}
+/*播放*/
+.play-left{
+    width: 958px;
+    height:575px;
+    margin:0 auto;
+    /*border:1px solid #000;*/
+    /*float: left;*/
+}
+.play-bc{
+    border:1px solid #000;
+    width:1298px;
+    height:577px;
+    background:#000;
+}
+#play-con{
+    /*float:left;*/
+    background:#000;
+    top:0;
+}
+/*.play-right{*/
+    /*width: 338px;*/
+    /*height:575px;*/
+    /*border:1px solid #000;*/
+    /*float: right;*/
+/*}*/
+
+.detail-content{
+    background:url(../images/detail/line-shu.png) repeat-y 640px 0;
+    position: relative;
+}
+.detail-content1{
+    background-position:960px 0;
+}
+.left-content{
+    width:940px;
+    padding-bottom:8px;
+}
+.star-main{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.role-header{
+    margin: 0 0 20px;
+    height: 65px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.role-header-div{
+    width: 900px;
+    padding: 2px 0 0 44px;
+    margin-top: -2px;
+    height: 73px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.role-ul li{
+    width:190px;
+    position:relative;
+    height:66px;
+    margin-right:30px;
+    margin-top:-2px;
+    float:left;
+}
+.role-ul li:nth-child(5),.role-ul li:nth-child(6),.role-ul li:nth-child(7),.role-ul li:nth-child(8){
+    display:none;
+}
+.role-ul .role-li{
+    border-bottom:3px solid #e73c31;
+    /*position:relative;*/
+    background:url(../images/detail/star-kuang.png) no-repeat 0 0;
+}
+.role-span-arrowL,.role-span-arrowR{
+    background: url(../images/detail/ico-star.png) no-repeat;
+    cursor: pointer;
+    position:absolute;
+    top: 14px;
+    display: inline-block;
+    width: 14px;
+    height: 26px;
+    z-index: 5;
+    /*background-position:-22px -204px;*/
+}
+.role-span-arrowL{
+    display:none;
+}
+.role-span-arrowR{
+    right:2px;
+    background-position:-22px -204px;
+}
+.role-span-arrowL{
+    background-position:0 -204px;
+    left:2px;
+}
+.role-span-arrowL:hover{
+    background-position:0 -241px;
+}
+.role-span-arrowR:hover{
+    background-position:-24px -241px;
+}
+.role-arrow{
+    width: 9px;
+    height: 8px;
+    position: absolute;
+    bottom: -3px;
+    left: 23px;
+    /*background-position: -82px -194px;*/
+    display:block;
+}
+.role-li  .role-arrow{
+    background:url(../images/detail/drama_ico.png) no-repeat -82px -194px;
+    display: block;
+}
+.rolePic{
+    width: 54px;
+    position: relative;
+    float: left;
+}
+.rolePic img{
+    width:50px;
+    height:50px;
+    margin:2px;
+}
+
+.rlPic-circle{
+    background:url(../images/detail/star-kuang.png) no-repeat -70px 0;
+    width: 54px;
+    height:60px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.role-li .rlPic-circle{
+    background:url(../images/detail/star-kuang.png) no-repeat 0px 0;
+}
+.roleName{
+    width: 85px;
+    float: left;
+    margin-left: 12px;
+    position: relative;
+   }
+.role-name{
+    color:#999;
+    font-size:12px;
+}
+.role-self{
+    height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 6px 0 5px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.role-self a{
+    color: #e73c31;
+}
+.role-content{
+    position: relative;
+    overflow: hidden;
+    height:306px;
+}
+.role-content-ul{
+    padding:0 0 18px;
+    overflow: hidden;
+}
+.role-content-ul li {
+    display: inline-block;
+}
+ul.role-content-ul li{
+    padding:3px 20px;
+    line-height:20px;
+    color:#3a3a3a;
+    background:url(../images/detail/role_line.png) no-repeat left center;
+    margin-left: -1px;
+}
+ul.role-content-ul li.active1{
+    background:#e03835;
+    color:#fff;
+}
+.role-content-ul li span{
+    font-size:12px;
+    color:#999;
+    margin:0 0 0 5px;
+}
+#span1{
+    color:#fff;
+}
+.role-tcont{
+    width:940px;
+    height:190px;
+    overflow:hidden;
+}
+.role-tcontul,.mod{
+    margin:0 -35px 0 -5px;
+}
+.role-tcontul {
+    position: absolute;
+}
+
+.role-tcontul li,.mod li{
+    padding-bottom:19px;
+    width:150px;
+    margin-right:10px;
+    float:left;
+}
+.role-pic{
+    height:190px;
+    width:140px;
+    padding:5px;
+    background:url(../images/detail/photo-shadow.png)no-repeat 0 -221px;
+    position:relative;
+}
+.role-pic:hover{
+    background-position:0 0;
+}
+.play-img-d{
+    background:url(../images/lisBg.png) repeat-x;
+    position:absolute;
+    width:140px;
+    height:44px;
+    bottom:6px;
+    left:5px;
+    display:block;
+}
+
+.role-btitle{
+    margin:1px 4px 6px;
+    font-weight:400;
+    display:block;
+    height:18px;
+    overflow:hidden;
+    word-break: break-all;
+    word-wrap:break-word;
+    font-style: normal;
+}
+.role-btitle a{
+    color:#3a3a3a;
+}
+.role-btitle a:hover{
+    color:#e73c31;
+}
+.role-pic .apic{
+    display:block;
+    width:140px;
+    height:190px;
+}
+.apic img{
+    display:block;
+}
+.role-p{
+    margin:0 4px;
+    height:18px;
+    overflow: hidden;
+    font-size: 12px;
+    color:#999;
+}
+.role-btnP{
+    position:relative;
+}
+.role-btnL,.role-btnR{
+    background:url(../images/detail/role-btn.png) no-repeat;
+    width:54px;
+    height:190px;
+    /*display:block;*/
+    top:5px;
+    position: absolute;
+}
+.role-btnL{
+    left:0;
+}
+.role-btnL:hover{
+    background-position: 0 -195px;
+}
+.role-btnR{
+    background-position:-77px 0;
+    right:0;
+}
+.role-btnR:hover{
+    background-position:-77px -195px;
+}
+.otherwatchmodtitle{
+    padding:20px 0 10px;
+}
+.otherwatchmodtitle h2{
+    font-size:16px;
+    line-height:20px;
+    color:#3a3a3a;
+}
+.user-pic{
+    height:80px;
+    width:140px;
+    padding:5px;
+    background:url(../images/detail/photo-shadow.png)no-repeat 0 -221px;
+    position:relative;
+}
+.role-pic .userShare{
+    display:block;
+    width:140px;
+    height:80px;
+}
+
+.right{
+    width:317px;
+}
+.remark{
+    margin:15px 0;
+}
+.remark-tit{
+    margin:10px 0 9px;
+}
+.remark-tit a{
+    font-size:12px;
+}
+.remark-tit a:hover{
+    color:#e73c31;
+}
+.remark-tit span{
+    font-size:16px;
+    margin-right:15px;
+}
+.remark-topic{
+    margin:0 0 15px;
+    padding:12px 10px 10px;
+    background:url(../images/detail/topic_bg.png) no-repeat left bottom;
+}
+.remark-topic-title{
+    font-size:16px;
+    margin:0 -8px 2px 0;
+    color:#3a3a3a;
+}
+.remark-topic-content{
+    padding-left:113px;
+}
+.remark-topic-content p{
+    font-size:12px;
+    margin:8px 0 15px;
+    /*line-height:21px;*/
+    overflow: hidden;
+}
+.topic-see{
+    font-size:12px;
+    /*margin:3px 0 0;*/
+    display:block;
+}
+.topic-see:hover{
+    color:#e73c31;
+}
+.remark-btn-write{
+    width:68px;
+    height:21px;
+    line-height:21px;
+    font-size:12px;
+    background:#fff;
+    border:1px solid #e73c31;
+    color:#e73c31;
+    display:block;
+    text-align:center;
+}
+.remark-box{
+    margin:0 0 15px;
+}
+.remark-content{
+    background:#fff;
+    padding:5px 8px;
+    height:48px;
+    margin:0 0 10px;
+    border:1px solid #d9d9da;
+}
+.remark-textarea{
+    border:none;
+    background:none;
+    width:100%;
+    height:46px;
+    color:#999;
+    font-size:14px;
+    resize:none;
+}
+.remark-box .active{
+    border-color:#e73c31;
+}
+.join-num{
+    padding:0px 10px;/*解决跳动问题*/
+    font-size:12px;
+    line-height:28px;
+    text-align: center;
+    /*outline: auto 5px;*/
+}
+.join-num i{
+    font-style:normal;
+}
+.remark-btn-red{
+    width:90px;
+    height:28px;
+    background:#e73c31;
+    color:#fff;
+    font-size:14px;
+    cursor:pointer;
+    text-align: center;
+    outline:0;
+    border:1px solid #e73c31;
+}
+.remark-btn-red:hover{
+    background:#ec635a;
+    border-color:#ec635a;
+}
+.remark-tab ul{
+    border-bottom:1px solid #e6e6e8;
+}
+.remark-tab li{
+    display:inline-block;
+    padding:0 20px 7px;
+    cursor:pointer;
+    color:#3a3a3a;
+}
+.remark-tab li.on-active{
+    border-bottom:2px solid #e73c31;
+    color:#e73c31;
+}
+
+.remark-list{
+    background: url(../images/comment/dot-2.png) repeat-x bottom;
+    padding: 17px 0 0 50px;
+    position: relative;
+}
+.remark-list-name {
+    margin: 0 0 8px;
+    position: relative;
+}
+.remark-list-pic{
+    width: 40px;
+    position: absolute;
+    top: 21px;
+    left: 0;
+}
+
+.remark-list-pic img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.remark-zan{
+    padding:15px 0px;
+    font-size:10px;
+}
+.remark-list-reply{
+    background:url(../images/comment/ico-remark.png) no-repeat 0 -117px;
+    /*background-position: 0 -117px;*/
+    display: inline-block;
+    padding: 0 0 0 20px;
+}
+.remark-list-zan{
+    background:url(../images/comment/ico-remark.png) no-repeat 0 -27px;
+    /*background-position: 0 -27px;*/
+    display: inline-block;
+    padding: 0 20px 0 20px;
+}

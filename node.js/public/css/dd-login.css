@@ -1,0 +1,133 @@
+.modal{
+    background:url(../images/skin/loginbg.jpg) no-repeat;
+    padding:30px 40px 0 40px;
+    height:345px;
+    width:670px;
+    border:1px solid #ccc;
+    position:fixed;
+    top:50%;
+    left:50%;
+    z-index:1000;
+    margin: -188.5px 0 0 -376px;
+    display:none;
+}
+.close{
+    position:relative;
+    /*background:url(../images/bg_login.png) no-repeat 0 0;*/
+
+}
+.close a{
+    background:url(../images/bg_login.png) no-repeat 0 0;
+    width:30px;
+    height:30px;
+    position:absolute;
+    /*right:0;*/
+    /*top:0;*/
+    right:-37px;
+    top:-29px;
+    float:right;
+    text-indent:-200px;
+    overflow: hidden;
+    margin:15px 15px 0 0;
+    display:block;
+}
+.close a:hover{
+    background-position:-189px 0;
+}
+.modal-dialog{
+    padding:0;
+    position:relative;
+}
+.modal-content{
+    width:280px;
+    border-right:none;
+    float:left;
+    padding:0 50px 0 0;
+    display:block;
+}
+.modal-login-h3{
+    text-align:center;
+    font-size:22px;
+    line-height:28px;
+    font-weight:normal;
+    color:#3a3a3a;
+}
+.login-alert{
+    margin: 15px 0 5px;
+    border: 1px solid #c9c9cc;
+    background: #fff;
+    color: #3a3a3a;
+    font-size:16px;
+    /*font-weight:bold;*/
+    padding:12px 0 12px 20px;
+    border-radius: 8px;
+    /*font-family: microsoft yahei;*/
+}
+.dialog-form{
+    padding-top:15px;
+}
+.dialog-in{
+    position:relative;
+    height:107px;
+    background:#fff;
+    border:1px solid #c9c9cc;
+    border-radius:8px;
+    padding:0 20px;
+    margin-bottom:10px;
+}
+.dialog-in input{
+    width:190px !important;
+}
+.dialog-input1{
+    width:240px;
+    height:48px;
+    overflow:hidden;
+    margin-top:5px;
+    border-bottom:1px solid #c9c9cc;
+}
+.dialog-p{
+    margin-right:7px;
+    padding:3px;
+    float:left;
+    display:inline;
+    height:38px;
+   }
+.dialog-login1,.dialog-login2{
+    background:url(../images/bg_login.png) no-repeat;
+    width:18px;
+    height:16px;
+    display:inline-block;
+    margin-top:13px;
+}
+.dialog-login1{
+    background-position:-45px 0px;
+}
+.dialog-login2{
+    background-position:-71px 0px;
+}
+.dialog-p input{
+    color:#3a3a3a;
+    padding-left:11px;
+    font-size:16px;
+    line-height:38px;
+    border:none;
+    background:none;
+    vertical-align: top;
+    /*font-family: microsoft yahei;*/
+}
+.login-submit{
+    padding-left:0;
+}
+.login-submit-btn{
+    border:0;
+    curser:pointer;
+    width:280px;
+    height:46px;
+    line-height:46px;
+    text-align: center;
+    border-radius:8px;
+    background:#e73c31;
+    color:#fff;
+    font-size:20px;
+    margin-top:10px;
+}
